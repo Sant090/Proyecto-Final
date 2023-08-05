@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
   }
+
   .forum-container {
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
   }
+
   .response-box {
     border: 1px solid #ccc;
     padding: 10px;
@@ -14,44 +16,61 @@ body {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    background-color: #FFE4D1;
+    background-color: #e6f5ff;
   }
+
   .response-text {
     flex: 1;
     margin-right: 10px;
     word-wrap: break-word;
   }
+
   .response-date {
     font-size: 0.8em;
     color: #888;
   }
 
   body {
-    margin: 0; /* Eliminamos el margen por defecto del body */
+    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #D4E3F4;
+    background-color: #d2edff;
   }
   header {
-    background: linear-gradient(to bottom, #e5b5eb, #D4E3F4);
+    background: linear-gradient(to bottom, #85C1E9, #d2edff);
     text-align: center;
     padding: 0;
     margin: 0;
-    line-height: 7; /* Ajustamos la altura de línea a 1 para eliminar cualquier espacio vertical */
+    line-height: 7;
+    font-family: 'Times New Roman', Times, serif;
   }
   header a {
-    display: block; /* Convertimos el enlace en un bloque para ocupar todo el ancho del header */
+    display: block; 
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 0px;
     font-weight: bold;
-    padding: 20px;
+    padding: 0px;
   }
   header a:hover {
     text-decoration: underline;
   }
   .forum-container {
-    max-width: 600px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
+    text-align: center;
   }
-  /* Resto de los estilos CSS del foro van aquí */
+ 
+  #title {
+
+    font-size: 40px;
+
+  }
+
+  #title2 {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }

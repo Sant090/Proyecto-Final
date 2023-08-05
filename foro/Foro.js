@@ -24,6 +24,6 @@ function addResponse() {
     const responsesContainer = document.getElementById("responses-container");
     responsesContainer.appendChild(responseBox);
 
-    // Limpiar el cuadro de respuesta después de agregarlo
+
     document.getElementById("input-response").value = "";
   }
