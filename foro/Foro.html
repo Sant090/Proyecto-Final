@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Test foro
-    </title>
-    <link rel="stylesheet" href="Foro.css">
+  <title>Foro con Respuestas</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="Foro.css">
 </head>
+<header>
+  <a href="../Proyecto.html">Personal Data Segurity</a>
+</header>
 <body>
-    <h1>Foro</h1>
-
-    <div id="Publicaciones">
-        <!-- Publicaciones -->
-    </div>
-
-    <!-- Texto de formulario -->
-    <form id="Formulario">
-        <textarea id="nuevaPublicacion" placeholder="Escribe tu publicación..."></textarea>
-        <button type="submit">Publicar Comentario</button>
-    </form>
-
-    <script src="Foro.js"></script>
+  <div class="forum-container">
+    <h2>
+      ¡Protege tus datos, protege tu vida!
+    </h2>
+    <p>
+      ¡Comparte tus consejos, trucos y experiencias para ayudar a otros a proteger sus datos y tener una experiencia en línea más segura y tranquila! La seguridad de nuestros datos es responsabilidad de todos, ¡juntos podemos fortalecer nuestras defensas digitales
+    </p>
+    <textarea id="input-response" rows="4" cols="50" maxlength="200" placeholder="Escribe tu respuesta aquí..."></textarea>
+    <button onclick="addResponse()">Responder</button>
+    <div id="responses-container"></div>
+  </div>
+  <script src="Foro.js"></script>
 </body>
 </html>
