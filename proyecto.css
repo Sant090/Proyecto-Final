@@ -1,12 +1,63 @@
+body {
+    font-family: "Arial", sans-serif;
+    background-color: purple;
+    color: purple;
+}
+
 header {
-    background: linear-gradient(to bottom, #e5b5eb, #D4E3F4);
     text-align: center;
-    padding: 0;
-    margin: 0;
-    line-height: 7;
+    background-color: purple;
 
 }
 
-body {
-    background-color: #D4E3F4;
+h1 {
+    color: white;
+    font-size: 36px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    margin: 0 auto;
+    display: block;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    border: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: purple;
+    color: white;
+    padding: 10px 0;
+}
+
+.imgrobo {
+    margin-left: 30%;
 }

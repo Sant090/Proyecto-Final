@@ -19,7 +19,5 @@ function retrocederTexto() {
 }
 
 function redireccionar() {
-  // Reemplaza "URL_DE_LA_OTRA_PAGINA" con la URL de la página dentro de la carpeta.
-  // Agregamos target="_blank" para que se abra en una nueva ventana.
-  window.open("Foro/Foro.html", "_blank");
+  window.open("https://personaldatasecurity.github.io/Foro/", "_blank");
 }
