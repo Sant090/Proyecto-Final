@@ -2,6 +2,7 @@ body {
     font-family: "Arial", sans-serif;
     background-color: purple;
     color: purple;
+    text-align: center;
 }
 
 header {
@@ -13,7 +14,8 @@ header {
 h1 {
     color: white;
     font-size: 36px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
 main {
@@ -55,9 +57,45 @@ footer {
     text-align: center;
     background-color: purple;
     color: white;
-    padding: 10px 0;
+    padding: 10px;
 }
 
 .imgrobo {
-    margin-left: 30%;
+    text-align: center;
+
+}
+
+.Titulos {
+    background-color: purple;
+    color: white;
+    padding: 5px;
+    font-size: 25px;
+    display: inline-block;
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+
+.text {
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente en la página */
+    padding: 10px; /* Agrega un relleno para separar el texto del borde del contenedor */
+    border: 1px solid #ccc; /* Agrega un borde para visualizar el contenedor */
+    text-align: center;
+}
+
+#metodos {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border: 1px solid #ccc; /* Agrega un borde para visualizar el contenedor */
+
+}
+
+#textE {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    border: 1px solid #ccc; /* Agrega un borde para visualizar el contenedor */
+
 }
