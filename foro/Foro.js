@@ -7,23 +7,18 @@ function addResponse() {
   const date = new Date();
   const formattedDate = `${date.toLocaleDateString()} ${date.toLocaleTimeString()}`;
 
-  const responseBox = document.createElement("div");
-  responseBox.classList.add("response-box");
-
-  const responseTextElement = document.createElement("p");
-  responseTextElement.classList.add("response-text");
-  responseTextElement.textContent = responseText;
-
-  const responseDateElement = document.createElement("span");
-  responseDateElement.classList.add("response-date");
-  responseDateElement.textContent = formattedDate;
-
-  responseBox.appendChild(responseTextElement);
-  responseBox.appendChild(responseDateElement);
-
-  const responsesContainer = document.getElementById("responses-container");
-  responsesContainer.appendChild(responseBox);
-
+  // Guarda la respuesta en la base de datos
+  db.collection("responses").add({
+    text: responseText,
+    date: formattedDate
+  })
+  .then(function(docRef) {
+    console.log("Respuesta guardada con ID: ", docRef.id);
+    // Opcional: Actualiza la lista de respuestas en tiempo real si lo deseas
+  })
+  .catch(function(error) {
+    console.error("Error al guardar la respuesta: ", error);
+  });
 
   document.getElementById("input-response").value = "";
-}
+};
