@@ -19,7 +19,7 @@ function retrocederTexto() {
 }
 
 function redireccionar() {
-  window.open("https://personaldatasecurity.github.io/Foro/", "_blank");
+  window.open("Foro/Foro.html", "_blank");
 }
 
 
