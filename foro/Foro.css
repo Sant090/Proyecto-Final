@@ -41,7 +41,9 @@ header {
   margin: 0;
   line-height: 1;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #51DCCB;
+  background: #51DCCB;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 header a {
   display: block; 
@@ -77,10 +79,18 @@ header a:hover {
   font-size: 30px;
   background-color: #5EE7D6;
   margin-top: 0px;
+  text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
 }
 
 .p {
   font-family: 'Lobster Two', cursive; 
   margin-bottom: 50px;
   font-size: 18px;
+}
+
+.footer{
+  text-align: end;
+  position: absolute;
+  bottom: 0;
 }
