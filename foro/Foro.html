@@ -1,30 +1,142 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Foro con Respuestas</title>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="Foro.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro PDS</title>
+    <link rel="stylesheet" href="Foro.css">
 </head>
-<header>
-  <img href="https://cdn-icons-png.flaticon.com/512/2124/2124281.png">
-  <a id="title" href="Foro/Foro.html">Personal Data Security</a>
-</header>
 <body>
-  <h2 id="title2">
-    PROTEGE TUS DATOS<br>protege tu vida
-  </h2>
-  <div class="forum-container">
-    <p class="p">
-      ¡Comparte tus consejos o trucos ayudar a otros a proteger sus datos y tener una experiencia en línea más segura y tranquila! La seguridad de nuestros datos es responsabilidad de todos. <br>¡juntos podemos fortalecer nuestras defensas digitales!
-    </p>
-    <textarea id="input-response" rows="4" cols="50" maxlength="1000" placeholder="¡Comparte algo!"></textarea>
-    <button onclick="addResponse()">Postear</button>
-    <div id="responses-container"></div>
-  </div>
-  <script src="Foro.js"></script>
+    <div class="container">
+        <div class="Imp">
+        <h1>Personal Data Segurity</h1>
+        <img class="imgrobo" src="https://static.thenounproject.com/png/2724563-200.png">
+        <h3>¡Comparte tus consejos o trucos ayudar a otros a proteger sus datos y tener una experiencia en línea más segura y tranquila!<br> La seguridad de nuestros datos es responsabilidad de todos. <br>¡juntos podemos fortalecer nuestras defensas digitales!</h3>
+        </div>
+        <div id="posts">
+            <div class="post">
+                <div class="post">
+                    <p>Hola, es importante que utilices contraseñas fuertes y únicas para tus cuentas en línea. Una contraseña fuerte debería ser una combinación de letras mayúsculas y minúsculas, números y caracteres especiales. Evita utilizar contraseñas predecibles como "123456" o "password".</p>
+                    <p class="post-time">Publicado el 01/08/2023 10:35 AM</p>
+                </div>
+                <div class="post">
+                    <p>Otra sugerencia clave es habilitar la autenticación de dos factores siempre que sea posible. Esto añade una capa adicional de seguridad al requerir un código de verificación adicional además de tu contraseña.</p>
+                    <p class="post-time">Publicado el 01/08/2023 10:42 AM</p>
+                </div>
+                <div class="post">
+                    <p>Te recomiendo evitar compartir información personal sensible en redes sociales. Mantén tu número de seguro social, dirección de casa y números de tarjeta de crédito lejos de plataformas públicas.</p>
+                    <p class="post-time">Publicado el 01/08/2023 10:45 AM</p>
+                </div>
+                <div class="post">
+                    <p>Hola, aquí tienes otra sugerencia importante: actualiza regularmente tus aplicaciones y sistemas operativos. Las actualizaciones a menudo incluyen correcciones de seguridad esenciales para proteger tu información personal.</p>
+                    <p class="post-time">Publicado el 01/08/2023 10:47 AM</p>
+                </div>
+                <div class="post">
+                    <p>Para evitar riesgos, ten cuidado al hacer clic en enlaces o abrir archivos adjuntos en correos electrónicos no solicitados. Los estafadores suelen utilizar correos de phishing para intentar robar tus datos.</p>
+                    <p class="post-time">Publicado el 01/08/2023 1:11 PM</p>
+                </div>
+                <div class="post">
+                    <p>no olvides que es importante no compartir tu información personal, como el número de seguro social, en sitios web no seguros. Verifica que los sitios utilicen conexiones seguras (https://) antes de proporcionar datos sensibles.</p>
+                    <p class="post-time">Publicado el 01/08/2023 1:45 PM</p>
+                </div>
+                <div class="post">
+                    <p>Cuando te conectes a redes Wi-Fi públicas, te sugiero usar una VPN para proteger tus datos. Las VPN ocultan tu dirección IP y cifran tu tráfico, lo que dificulta que los intrusos accedan a tu información.</p>
+                    <p class="post-time">Publicado el 01/08/2023 1:51 PM</p>
+                </div>
+                <div class="post">
+                    <p>una recomendación importante es configurar alertas de seguridad en tus cuentas para recibir notificaciones de actividad inusual. Esto te permitirá detectar y responder rápidamente a cualquier intento de acceso no autorizado.</p>
+                    <p class="post-time">Publicado el 02/08/2023 3:35 PM</p>
+                </div>
+                <div class="post">
+                    <p>No reveles información personal en llamadas telefónicas no solicitadas o mensajes de texto. Los estafadores a menudo se hacen pasar por instituciones legítimas para obtener información confidencial.</p>
+                    <p class="post-time">Publicado el 02/08/2023 3:37 PM</p>
+                </div>
+                <div class="post">
+                    <p>Para concluir, te aconsejo revisar periódicamente la configuración de privacidad de tus cuentas en línea. Mantén tus datos bajo control y actualiza las configuraciones según tus preferencias.</p>
+                    <p class="post-time">Publicado el 02/08/2023 3:40 PM</p>
+                </div>
+                <div class="post">
+                    <p>Recuerda utilizar contraseñas fuertes y únicas para tus cuentas en línea. Una contraseña fuerte debe ser una combinación de letras mayúsculas y minúsculas, números y caracteres especiales.</p>
+                    <p class="post-time">Publicado el 02/08/2023 3:42 PM</p>
+                </div>
+                <div class="post">
+                    <p>Es importante revisar regularmente tus estados de cuenta bancarios y de tarjeta de crédito en busca de transacciones no autorizadas. Detectar problemas a tiempo es esencial.</p>
+                    <p class="post-time">Publicado el 02/08/2023 3:51 PM</p>
+                </div>
+                <div class="post">
+                    <p>Sé cauteloso al proporcionar información personal en línea a través de servicios de chat en vivo o mensajes directos en redes sociales. Asegúrate de estar tratando con fuentes legítimas.</p>
+                    <p class="post-time">Publicado el 02/08/2023 3:53 PM</p>
+                </div>
+                <div class="post">
+                    <p>Otro consejo importante es asegurarte de que tu dispositivo tenga un software antivirus actualizado. Esto ayudará a detectar y eliminar posibles amenazas de seguridad.</p>
+                    <p class="post-time">Publicado el 03/08/2023 7:20 AM</p>
+                </div>
+                <div class="post">
+                    <p>Considera utilizar una dirección de correo electrónico separada para registros en línea y suscripciones. Esto limitará la exposición de tu dirección de correo principal.</p>
+                    <p class="post-time">Publicado el 03/08/2023 7:31 AM</p>
+                </div>
+                <div class="post">
+                    <p>Mantén tu sistema operativo y software de seguridad en línea actualizados para proteger tu dispositivo contra vulnerabilidades conocidas.</p>
+                    <p class="post-time">Publicado el 03/08/2023 7:40 AM</p>
+                </div>
+                <div class="post">
+                    <p>Asegúrate de revisar las políticas de privacidad de las aplicaciones y servicios que utilizas para comprender cómo manejan tus datos personales.</p>
+                    <p class="post-time">Publicado el 03/08/2023 7:52 AM</p>
+                </div>
+                <div class="post">
+                    <p>Nunca compartas tu información de inicio de sesión con nadie, ni siquiera con amigos o familiares. Mantén tus contraseñas en secreto.</p>
+                    <p class="post-time">Publicado el 03/08/2023 2:29 PM</p>
+                </div>
+                <div class="post">
+                    <p>Sé especialmente cuidadoso al descargar aplicaciones de fuentes no confiables. Utiliza las tiendas de aplicaciones oficiales para minimizar los riesgos de malware.</p>
+                    <p class="post-time">Publicado el 03/08/2023 2:32 PM</p>
+                </div>
+                <div class="post">
+                    <p>Mantén un registro de tus dispositivos y cuentas en línea para poder tomar medidas rápidas en caso de pérdida o robo.</p>
+                    <p class="post-time">Publicado el 03/08/2023 3:20 PM</p>
+                </div>
+        </div>
+        <div>
+            <h2>Nueva respuesta:</h2>
+            <textarea id="respuesta" rows="4" placeholder="Escribe tu respuesta aquí"></textarea>
+            <button id="respuesta-btn" onclick="publicarRespuesta()" disabled>Publicar</button>
+        </div>
+
+        
+    </div>
+
+    <script>
+        let publicaciones = 5; 
+        function publicarRespuesta() {
+            const respuestaText = document.getElementById('respuesta').value;
+
+            if (respuestaText.trim() === '') {
+                return;
+            }
+
+            const currentTime = new Date();
+            const formattedTime = `${currentTime.toLocaleDateString()} ${currentTime.toLocaleTimeString()}`;
+            const post = `
+                <div class="post">
+                    <p>${respuestaText}</p>
+                    <p class="post-time">Publicado el ${formattedTime}</p>
+                </div>
+            `;
+            document.getElementById('posts').innerHTML += post;
+            document.getElementById('respuesta').value = '';
+            publicaciones++;
+
+            if (publicaciones >= 6) {
+                document.getElementById('respuesta').disabled = true;
+                document.getElementById('respuesta-btn').disabled = true;
+                alert("Se ha alcanzado el límite de tiempo para agregar respuestas.");
+            }
+        }
+        document.getElementById('respuesta').addEventListener('input', function () {
+            if (publicaciones < 6) {
+                document.getElementById('respuesta-btn').disabled = false;
+            }
+        });
+    </script>
 </body>
-<footer id="footer">
-  <p>&copy; 2023 P.D.S. Todos los derechos reservados. <br>
-  </p>
-</footer>
 </html>
